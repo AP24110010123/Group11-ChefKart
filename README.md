@@ -52,53 +52,12 @@ Tools:
 - Postman / Thunder Client
 
 ## Project Structure
-- ChefKart/
-
--- frontend/
---- public/
---- src/
---- components/
----- Navbar.jsx
----- Footer.jsx
----- ProtectedRoute.jsx
----- AdminDashboard.jsx
---- pages/
----- Home.jsx
----- Login.jsx
----- Register.jsx
----- Chefs.jsx
----- ChefDetail.jsx
----- Booking.jsx
----- Dashboard.jsx
----- Subscription.jsx
---- App.js
----- main.jsx
---- styles/
---- package.json
--- backend/
---- models/
----- userModel.js
----- chefModel.js
----- bookingModel.js
----- subscriptionModel.js
---- controllers/
----- authController.js
----- chefController.js
----- bookingController.js
----- paymentController.js
---- routes/
----- authRoutes.js
----- chefRoutes.js
----- bookingRoutes.js
----- paymentRoutes.js
----- subscriptionRoutes.js
---- middlewares/
----- authenticate.js
---- config/
----- db.js
----- .env
----- server.js
---package.json
+- frontend/ → React application
+- backend/ → Node.js server
+- models/ → Database schemas
+- controllers/ → Business logic
+- routes/ → API endpoints
+- middleware/ → Authentication
 
 ## Installation Steps
 1. Clone the repository:
