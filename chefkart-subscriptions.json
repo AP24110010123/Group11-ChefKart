@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "69eef777880d730de348b7e6"
+  },
+  "userId": {
+    "$oid": "69eef4b6824dab67e35635fc"
+  },
+  "plan": "popular",
+  "planDetails": {
+    "name": "Popular",
+    "mealsPerDay": 2,
+    "daysPerWeek": 6,
+    "pricePerMonth": 4999
+  },
+  "startDate": {
+    "$date": "2026-04-27T05:43:19.046Z"
+  },
+  "endDate": {
+    "$date": "2026-05-27T05:43:19.046Z"
+  },
+  "active": true,
+  "autoRenew": false,
+  "razorpayOrderId": "order_SiPDZPsSRMY0i0",
+  "createdAt": {
+    "$date": "2026-04-27T05:43:19.063Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-27T05:43:19.063Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69eef870880d730de348b7fa"
+  },
+  "userId": {
+    "$oid": "69eef4b6824dab67e35635fc"
+  },
+  "plan": "popular",
+  "planDetails": {
+    "name": "Popular",
+    "mealsPerDay": 2,
+    "daysPerWeek": 6,
+    "pricePerMonth": 4999
+  },
+  "startDate": {
+    "$date": "2026-04-27T05:47:28.048Z"
+  },
+  "endDate": {
+    "$date": "2026-05-27T05:47:28.048Z"
+  },
+  "active": true,
+  "autoRenew": false,
+  "razorpayOrderId": "order_SiPHxCPCOTmGcG",
+  "createdAt": {
+    "$date": "2026-04-27T05:47:28.050Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-27T05:47:28.050Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69eef8e2880d730de348b7fc"
+  },
+  "userId": {
+    "$oid": "69eef4b6824dab67e35635fc"
+  },
+  "plan": "starter",
+  "planDetails": {
+    "name": "Starter",
+    "mealsPerDay": 1,
+    "daysPerWeek": 5,
+    "pricePerMonth": 2999
+  },
+  "startDate": {
+    "$date": "2026-04-27T05:49:22.527Z"
+  },
+  "endDate": {
+    "$date": "2026-05-27T05:49:22.527Z"
+  },
+  "active": true,
+  "autoRenew": false,
+  "razorpayOrderId": "order_SiPJyAlYAo2rhR",
+  "createdAt": {
+    "$date": "2026-04-27T05:49:22.529Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-27T05:49:22.529Z"
+  }
+}]

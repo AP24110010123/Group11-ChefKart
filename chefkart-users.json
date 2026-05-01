@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "69eee722c3e43a3e43f5c72a"
+  },
+  "name": "Harini Kondepati",
+  "email": "kondepatiharini9@gmail.com",
+  "username": "harini_k",
+  "password": "$2a$10$DxbJsKnWjInt6ghT0kz4VOcXfxy0pxxnTV3YGoBGXUM8V7IN0M1ea",
+  "mobile": "9063232873",
+  "activeSubscription": null,
+  "createdAt": {
+    "$date": "2026-04-27T04:33:38.158Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-27T04:33:38.158Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69eef4b6824dab67e35635fc"
+  },
+  "name": "Harini Kondepati | AP24110010123",
+  "email": "harini_kondepati@srmap.edu.in",
+  "username": "adithyaaaa",
+  "password": "$2a$10$a2vJBQIY9F.0DTwuuLTbGOHXJsvB6Lm.id3UhCKOXXb5TKT4BKbX6",
+  "mobile": "9493571049",
+  "activeSubscription": null,
+  "createdAt": {
+    "$date": "2026-04-27T05:31:34.247Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-27T05:31:34.247Z"
+  }
+}]

@@ -1,0 +1,528 @@
+[{
+  "_id": "Harini-1775466645175",
+  "hostname": "Harini",
+  "startTime": {
+    "$date": "2026-04-06T09:10:45.000Z"
+  },
+  "startTimeLocal": "Mon Apr  6 14:40:45.175",
+  "cmdLine": {
+    "config": "C:\\Program Files\\MongoDB\\Server\\8.2\\bin\\mongod.cfg",
+    "net": {
+      "bindIp": "127.0.0.1",
+      "port": 27017
+    },
+    "service": true,
+    "storage": {
+      "dbPath": "C:\\Program Files\\MongoDB\\Server\\8.2\\data"
+    },
+    "systemLog": {
+      "destination": "file",
+      "logAppend": true,
+      "path": "C:\\Program Files\\MongoDB\\Server\\8.2\\log\\mongod.log"
+    }
+  },
+  "pid": {
+    "$numberLong": "4448"
+  },
+  "buildinfo": {
+    "version": "8.2.6",
+    "versionArray": [
+      8,
+      2,
+      6,
+      0
+    ],
+    "gitVersion": "5d25c835745d06f712320b6cdae9d50b7b43663e",
+    "targetMinOS": "Windows 7/Windows Server 2008 R2",
+    "modules": [],
+    "allocator": "tcmalloc-gperf",
+    "javascriptEngine": "mozjs",
+    "sysinfo": "deprecated",
+    "openssl": {
+      "running": "Windows SChannel"
+    },
+    "buildEnvironment": {
+      "distmod": "windows",
+      "distarch": "",
+      "cc": "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.31.31103/bin/HostX64/x64/cl.exe: version unknown",
+      "ccflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /Zc:inline /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include /WX /W3 /Z7 /O2 /Oy- /wd4068 /wd4244 /wd4267 /wd4290 /wd4351 /wd4355 /wd4373 /wd4800 /wd4251 /wd4291 /we4013 /we4099 /we4930 /Gw /Gy /Zc:inline -Iexternal/windows_sasl/include",
+      "cxx": "None: version unknown",
+      "cxxflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /Zc:inline /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include /WX /W3 /Z7 /O2 /Oy- /wd4068 /wd4244 /wd4267 /wd4290 /wd4351 /wd4355 /wd4373 /wd4800 /wd4251 /wd4291 /we4013 /we4099 /we4930 /Gw /Gy /Zc:inline -Iexternal/windows_sasl/include",
+      "linkflags": "/nologo /SUBSYSTEM:CONSOLE /MACHINE:X64 /NODEFAULTLIB:library /DEBUG /INCREMENTAL:NO /LARGEADDRESSAWARE /OPT:REF /LIBPATH:external/windows_sasl/lib bcrypt.lib Dnsapi.lib Crypt32.lib Version.lib Winmm.lib Iphlpapi.lib Pdh.lib kernel32.lib shell32.lib ws2_32.lib DbgHelp.lib Psapi.lib Secur32.lib",
+      "target_arch": "",
+      "target_os": "windows",
+      "cppdefines": "BOOST_ALL_NO_LIB BOOST_ALL_NO_LIB _UNICODE UNICODE _SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING _SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING _SILENCE_ALL_CXX20_DEPRECATION_WARNINGS _CONSOLE _CRT_SECURE_NO_WARNINGS _ENABLE_EXTENDED_ALIGNED_STORAGE _SCL_SECURE_NO_WARNINGS NDEBUG BOOST_ENABLE_ASSERT_DEBUG_HANDLER BOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF BOOST_LOG_NO_SHORTHAND_NAMES BOOST_LOG_USE_NATIVE_SYSLOG BOOST_LOG_WITHOUT_THREAD_ATTR BOOST_MATH_NO_LONG_DOUBLE_MATH_FUNCTIONS BOOST_SYSTEM_NO_DEPRECATED BOOST_THREAD_USES_DATETIME BOOST_THREAD_VERSION=5 ABSL_FORCE_ALIGNED_ACCESS PCRE2_STATIC SAFEINT_USE_INTRINSICS=0"
+    },
+    "bits": 64,
+    "debug": false,
+    "maxBsonObjectSize": {
+      "$numberLong": "16777216"
+    },
+    "storageEngines": [
+      "devnull",
+      "wiredTiger"
+    ]
+  }
+},
+{
+  "_id": "Harini-1775893107898",
+  "hostname": "Harini",
+  "startTime": {
+    "$date": "2026-04-11T07:38:27.000Z"
+  },
+  "startTimeLocal": "Sat Apr 11 13:08:27.898",
+  "cmdLine": {
+    "config": "C:\\Program Files\\MongoDB\\Server\\8.2\\bin\\mongod.cfg",
+    "net": {
+      "bindIp": "127.0.0.1",
+      "port": 27017
+    },
+    "service": true,
+    "storage": {
+      "dbPath": "C:\\Program Files\\MongoDB\\Server\\8.2\\data"
+    },
+    "systemLog": {
+      "destination": "file",
+      "logAppend": true,
+      "path": "C:\\Program Files\\MongoDB\\Server\\8.2\\log\\mongod.log"
+    }
+  },
+  "pid": {
+    "$numberLong": "5132"
+  },
+  "buildinfo": {
+    "version": "8.2.6",
+    "versionArray": [
+      8,
+      2,
+      6,
+      0
+    ],
+    "gitVersion": "5d25c835745d06f712320b6cdae9d50b7b43663e",
+    "targetMinOS": "Windows 7/Windows Server 2008 R2",
+    "modules": [],
+    "allocator": "tcmalloc-gperf",
+    "javascriptEngine": "mozjs",
+    "sysinfo": "deprecated",
+    "openssl": {
+      "running": "Windows SChannel"
+    },
+    "buildEnvironment": {
+      "distmod": "windows",
+      "distarch": "",
+      "cc": "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.31.31103/bin/HostX64/x64/cl.exe: version unknown",
+      "ccflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /Zc:inline /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include /WX /W3 /Z7 /O2 /Oy- /wd4068 /wd4244 /wd4267 /wd4290 /wd4351 /wd4355 /wd4373 /wd4800 /wd4251 /wd4291 /we4013 /we4099 /we4930 /Gw /Gy /Zc:inline -Iexternal/windows_sasl/include",
+      "cxx": "None: version unknown",
+      "cxxflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /Zc:inline /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include /WX /W3 /Z7 /O2 /Oy- /wd4068 /wd4244 /wd4267 /wd4290 /wd4351 /wd4355 /wd4373 /wd4800 /wd4251 /wd4291 /we4013 /we4099 /we4930 /Gw /Gy /Zc:inline -Iexternal/windows_sasl/include",
+      "linkflags": "/nologo /SUBSYSTEM:CONSOLE /MACHINE:X64 /NODEFAULTLIB:library /DEBUG /INCREMENTAL:NO /LARGEADDRESSAWARE /OPT:REF /LIBPATH:external/windows_sasl/lib bcrypt.lib Dnsapi.lib Crypt32.lib Version.lib Winmm.lib Iphlpapi.lib Pdh.lib kernel32.lib shell32.lib ws2_32.lib DbgHelp.lib Psapi.lib Secur32.lib",
+      "target_arch": "",
+      "target_os": "windows",
+      "cppdefines": "BOOST_ALL_NO_LIB BOOST_ALL_NO_LIB _UNICODE UNICODE _SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING _SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING _SILENCE_ALL_CXX20_DEPRECATION_WARNINGS _CONSOLE _CRT_SECURE_NO_WARNINGS _ENABLE_EXTENDED_ALIGNED_STORAGE _SCL_SECURE_NO_WARNINGS NDEBUG BOOST_ENABLE_ASSERT_DEBUG_HANDLER BOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF BOOST_LOG_NO_SHORTHAND_NAMES BOOST_LOG_USE_NATIVE_SYSLOG BOOST_LOG_WITHOUT_THREAD_ATTR BOOST_MATH_NO_LONG_DOUBLE_MATH_FUNCTIONS BOOST_SYSTEM_NO_DEPRECATED BOOST_THREAD_USES_DATETIME BOOST_THREAD_VERSION=5 ABSL_FORCE_ALIGNED_ACCESS PCRE2_STATIC SAFEINT_USE_INTRINSICS=0"
+    },
+    "bits": 64,
+    "debug": false,
+    "maxBsonObjectSize": {
+      "$numberLong": "16777216"
+    },
+    "storageEngines": [
+      "devnull",
+      "wiredTiger"
+    ]
+  }
+},
+{
+  "_id": "Harini-1776266737879",
+  "hostname": "Harini",
+  "startTime": {
+    "$date": "2026-04-15T15:25:37.000Z"
+  },
+  "startTimeLocal": "Wed Apr 15 20:55:37.879",
+  "cmdLine": {
+    "config": "C:\\Program Files\\MongoDB\\Server\\8.2\\bin\\mongod.cfg",
+    "net": {
+      "bindIp": "127.0.0.1",
+      "port": 27017
+    },
+    "service": true,
+    "storage": {
+      "dbPath": "C:\\Program Files\\MongoDB\\Server\\8.2\\data"
+    },
+    "systemLog": {
+      "destination": "file",
+      "logAppend": true,
+      "path": "C:\\Program Files\\MongoDB\\Server\\8.2\\log\\mongod.log"
+    }
+  },
+  "pid": {
+    "$numberLong": "6432"
+  },
+  "buildinfo": {
+    "version": "8.2.6",
+    "versionArray": [
+      8,
+      2,
+      6,
+      0
+    ],
+    "gitVersion": "5d25c835745d06f712320b6cdae9d50b7b43663e",
+    "targetMinOS": "Windows 7/Windows Server 2008 R2",
+    "modules": [],
+    "allocator": "tcmalloc-gperf",
+    "javascriptEngine": "mozjs",
+    "sysinfo": "deprecated",
+    "openssl": {
+      "running": "Windows SChannel"
+    },
+    "buildEnvironment": {
+      "distmod": "windows",
+      "distarch": "",
+      "cc": "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.31.31103/bin/HostX64/x64/cl.exe: version unknown",
+      "ccflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /Zc:inline /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include /WX /W3 /Z7 /O2 /Oy- /wd4068 /wd4244 /wd4267 /wd4290 /wd4351 /wd4355 /wd4373 /wd4800 /wd4251 /wd4291 /we4013 /we4099 /we4930 /Gw /Gy /Zc:inline -Iexternal/windows_sasl/include",
+      "cxx": "None: version unknown",
+      "cxxflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /Zc:inline /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include /WX /W3 /Z7 /O2 /Oy- /wd4068 /wd4244 /wd4267 /wd4290 /wd4351 /wd4355 /wd4373 /wd4800 /wd4251 /wd4291 /we4013 /we4099 /we4930 /Gw /Gy /Zc:inline -Iexternal/windows_sasl/include",
+      "linkflags": "/nologo /SUBSYSTEM:CONSOLE /MACHINE:X64 /NODEFAULTLIB:library /DEBUG /INCREMENTAL:NO /LARGEADDRESSAWARE /OPT:REF /LIBPATH:external/windows_sasl/lib bcrypt.lib Dnsapi.lib Crypt32.lib Version.lib Winmm.lib Iphlpapi.lib Pdh.lib kernel32.lib shell32.lib ws2_32.lib DbgHelp.lib Psapi.lib Secur32.lib",
+      "target_arch": "",
+      "target_os": "windows",
+      "cppdefines": "BOOST_ALL_NO_LIB BOOST_ALL_NO_LIB _UNICODE UNICODE _SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING _SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING _SILENCE_ALL_CXX20_DEPRECATION_WARNINGS _CONSOLE _CRT_SECURE_NO_WARNINGS _ENABLE_EXTENDED_ALIGNED_STORAGE _SCL_SECURE_NO_WARNINGS NDEBUG BOOST_ENABLE_ASSERT_DEBUG_HANDLER BOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF BOOST_LOG_NO_SHORTHAND_NAMES BOOST_LOG_USE_NATIVE_SYSLOG BOOST_LOG_WITHOUT_THREAD_ATTR BOOST_MATH_NO_LONG_DOUBLE_MATH_FUNCTIONS BOOST_SYSTEM_NO_DEPRECATED BOOST_THREAD_USES_DATETIME BOOST_THREAD_VERSION=5 ABSL_FORCE_ALIGNED_ACCESS PCRE2_STATIC SAFEINT_USE_INTRINSICS=0"
+    },
+    "bits": 64,
+    "debug": false,
+    "maxBsonObjectSize": {
+      "$numberLong": "16777216"
+    },
+    "storageEngines": [
+      "devnull",
+      "wiredTiger"
+    ]
+  }
+},
+{
+  "_id": "Harini-1776311076196",
+  "hostname": "Harini",
+  "startTime": {
+    "$date": "2026-04-16T03:44:36.000Z"
+  },
+  "startTimeLocal": "Thu Apr 16 09:14:36.196",
+  "cmdLine": {
+    "config": "C:\\Program Files\\MongoDB\\Server\\8.2\\bin\\mongod.cfg",
+    "net": {
+      "bindIp": "127.0.0.1",
+      "port": 27017
+    },
+    "service": true,
+    "storage": {
+      "dbPath": "C:\\Program Files\\MongoDB\\Server\\8.2\\data"
+    },
+    "systemLog": {
+      "destination": "file",
+      "logAppend": true,
+      "path": "C:\\Program Files\\MongoDB\\Server\\8.2\\log\\mongod.log"
+    }
+  },
+  "pid": {
+    "$numberLong": "5064"
+  },
+  "buildinfo": {
+    "version": "8.2.6",
+    "versionArray": [
+      8,
+      2,
+      6,
+      0
+    ],
+    "gitVersion": "5d25c835745d06f712320b6cdae9d50b7b43663e",
+    "targetMinOS": "Windows 7/Windows Server 2008 R2",
+    "modules": [],
+    "allocator": "tcmalloc-gperf",
+    "javascriptEngine": "mozjs",
+    "sysinfo": "deprecated",
+    "openssl": {
+      "running": "Windows SChannel"
+    },
+    "buildEnvironment": {
+      "distmod": "windows",
+      "distarch": "",
+      "cc": "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.31.31103/bin/HostX64/x64/cl.exe: version unknown",
+      "ccflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /Zc:inline /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include /WX /W3 /Z7 /O2 /Oy- /wd4068 /wd4244 /wd4267 /wd4290 /wd4351 /wd4355 /wd4373 /wd4800 /wd4251 /wd4291 /we4013 /we4099 /we4930 /Gw /Gy /Zc:inline -Iexternal/windows_sasl/include",
+      "cxx": "None: version unknown",
+      "cxxflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /Zc:inline /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include /WX /W3 /Z7 /O2 /Oy- /wd4068 /wd4244 /wd4267 /wd4290 /wd4351 /wd4355 /wd4373 /wd4800 /wd4251 /wd4291 /we4013 /we4099 /we4930 /Gw /Gy /Zc:inline -Iexternal/windows_sasl/include",
+      "linkflags": "/nologo /SUBSYSTEM:CONSOLE /MACHINE:X64 /NODEFAULTLIB:library /DEBUG /INCREMENTAL:NO /LARGEADDRESSAWARE /OPT:REF /LIBPATH:external/windows_sasl/lib bcrypt.lib Dnsapi.lib Crypt32.lib Version.lib Winmm.lib Iphlpapi.lib Pdh.lib kernel32.lib shell32.lib ws2_32.lib DbgHelp.lib Psapi.lib Secur32.lib",
+      "target_arch": "",
+      "target_os": "windows",
+      "cppdefines": "BOOST_ALL_NO_LIB BOOST_ALL_NO_LIB _UNICODE UNICODE _SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING _SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING _SILENCE_ALL_CXX20_DEPRECATION_WARNINGS _CONSOLE _CRT_SECURE_NO_WARNINGS _ENABLE_EXTENDED_ALIGNED_STORAGE _SCL_SECURE_NO_WARNINGS NDEBUG BOOST_ENABLE_ASSERT_DEBUG_HANDLER BOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF BOOST_LOG_NO_SHORTHAND_NAMES BOOST_LOG_USE_NATIVE_SYSLOG BOOST_LOG_WITHOUT_THREAD_ATTR BOOST_MATH_NO_LONG_DOUBLE_MATH_FUNCTIONS BOOST_SYSTEM_NO_DEPRECATED BOOST_THREAD_USES_DATETIME BOOST_THREAD_VERSION=5 ABSL_FORCE_ALIGNED_ACCESS PCRE2_STATIC SAFEINT_USE_INTRINSICS=0"
+    },
+    "bits": 64,
+    "debug": false,
+    "maxBsonObjectSize": {
+      "$numberLong": "16777216"
+    },
+    "storageEngines": [
+      "devnull",
+      "wiredTiger"
+    ]
+  }
+},
+{
+  "_id": "Harini-1776447085302",
+  "hostname": "Harini",
+  "startTime": {
+    "$date": "2026-04-17T17:31:25.000Z"
+  },
+  "startTimeLocal": "Fri Apr 17 23:01:25.302",
+  "cmdLine": {
+    "config": "C:\\Program Files\\MongoDB\\Server\\8.2\\bin\\mongod.cfg",
+    "net": {
+      "bindIp": "127.0.0.1",
+      "port": 27017
+    },
+    "service": true,
+    "storage": {
+      "dbPath": "C:\\Program Files\\MongoDB\\Server\\8.2\\data"
+    },
+    "systemLog": {
+      "destination": "file",
+      "logAppend": true,
+      "path": "C:\\Program Files\\MongoDB\\Server\\8.2\\log\\mongod.log"
+    }
+  },
+  "pid": {
+    "$numberLong": "6308"
+  },
+  "buildinfo": {
+    "version": "8.2.6",
+    "versionArray": [
+      8,
+      2,
+      6,
+      0
+    ],
+    "gitVersion": "5d25c835745d06f712320b6cdae9d50b7b43663e",
+    "targetMinOS": "Windows 7/Windows Server 2008 R2",
+    "modules": [],
+    "allocator": "tcmalloc-gperf",
+    "javascriptEngine": "mozjs",
+    "sysinfo": "deprecated",
+    "openssl": {
+      "running": "Windows SChannel"
+    },
+    "buildEnvironment": {
+      "distmod": "windows",
+      "distarch": "",
+      "cc": "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.31.31103/bin/HostX64/x64/cl.exe: version unknown",
+      "ccflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /Zc:inline /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include /WX /W3 /Z7 /O2 /Oy- /wd4068 /wd4244 /wd4267 /wd4290 /wd4351 /wd4355 /wd4373 /wd4800 /wd4251 /wd4291 /we4013 /we4099 /we4930 /Gw /Gy /Zc:inline -Iexternal/windows_sasl/include",
+      "cxx": "None: version unknown",
+      "cxxflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /Zc:inline /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include /WX /W3 /Z7 /O2 /Oy- /wd4068 /wd4244 /wd4267 /wd4290 /wd4351 /wd4355 /wd4373 /wd4800 /wd4251 /wd4291 /we4013 /we4099 /we4930 /Gw /Gy /Zc:inline -Iexternal/windows_sasl/include",
+      "linkflags": "/nologo /SUBSYSTEM:CONSOLE /MACHINE:X64 /NODEFAULTLIB:library /DEBUG /INCREMENTAL:NO /LARGEADDRESSAWARE /OPT:REF /LIBPATH:external/windows_sasl/lib bcrypt.lib Dnsapi.lib Crypt32.lib Version.lib Winmm.lib Iphlpapi.lib Pdh.lib kernel32.lib shell32.lib ws2_32.lib DbgHelp.lib Psapi.lib Secur32.lib",
+      "target_arch": "",
+      "target_os": "windows",
+      "cppdefines": "BOOST_ALL_NO_LIB BOOST_ALL_NO_LIB _UNICODE UNICODE _SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING _SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING _SILENCE_ALL_CXX20_DEPRECATION_WARNINGS _CONSOLE _CRT_SECURE_NO_WARNINGS _ENABLE_EXTENDED_ALIGNED_STORAGE _SCL_SECURE_NO_WARNINGS NDEBUG BOOST_ENABLE_ASSERT_DEBUG_HANDLER BOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF BOOST_LOG_NO_SHORTHAND_NAMES BOOST_LOG_USE_NATIVE_SYSLOG BOOST_LOG_WITHOUT_THREAD_ATTR BOOST_MATH_NO_LONG_DOUBLE_MATH_FUNCTIONS BOOST_SYSTEM_NO_DEPRECATED BOOST_THREAD_USES_DATETIME BOOST_THREAD_VERSION=5 ABSL_FORCE_ALIGNED_ACCESS PCRE2_STATIC SAFEINT_USE_INTRINSICS=0"
+    },
+    "bits": 64,
+    "debug": false,
+    "maxBsonObjectSize": {
+      "$numberLong": "16777216"
+    },
+    "storageEngines": [
+      "devnull",
+      "wiredTiger"
+    ]
+  }
+},
+{
+  "_id": "Harini-1776447280573",
+  "hostname": "Harini",
+  "startTime": {
+    "$date": "2026-04-17T17:34:40.000Z"
+  },
+  "startTimeLocal": "Fri Apr 17 23:04:40.573",
+  "cmdLine": {
+    "config": "C:\\Program Files\\MongoDB\\Server\\8.2\\bin\\mongod.cfg",
+    "net": {
+      "bindIp": "127.0.0.1",
+      "port": 27017
+    },
+    "service": true,
+    "storage": {
+      "dbPath": "C:\\Program Files\\MongoDB\\Server\\8.2\\data"
+    },
+    "systemLog": {
+      "destination": "file",
+      "logAppend": true,
+      "path": "C:\\Program Files\\MongoDB\\Server\\8.2\\log\\mongod.log"
+    }
+  },
+  "pid": {
+    "$numberLong": "6304"
+  },
+  "buildinfo": {
+    "version": "8.2.6",
+    "versionArray": [
+      8,
+      2,
+      6,
+      0
+    ],
+    "gitVersion": "5d25c835745d06f712320b6cdae9d50b7b43663e",
+    "targetMinOS": "Windows 7/Windows Server 2008 R2",
+    "modules": [],
+    "allocator": "tcmalloc-gperf",
+    "javascriptEngine": "mozjs",
+    "sysinfo": "deprecated",
+    "openssl": {
+      "running": "Windows SChannel"
+    },
+    "buildEnvironment": {
+      "distmod": "windows",
+      "distarch": "",
+      "cc": "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.31.31103/bin/HostX64/x64/cl.exe: version unknown",
+      "ccflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /Zc:inline /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include /WX /W3 /Z7 /O2 /Oy- /wd4068 /wd4244 /wd4267 /wd4290 /wd4351 /wd4355 /wd4373 /wd4800 /wd4251 /wd4291 /we4013 /we4099 /we4930 /Gw /Gy /Zc:inline -Iexternal/windows_sasl/include",
+      "cxx": "None: version unknown",
+      "cxxflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /Zc:inline /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include /WX /W3 /Z7 /O2 /Oy- /wd4068 /wd4244 /wd4267 /wd4290 /wd4351 /wd4355 /wd4373 /wd4800 /wd4251 /wd4291 /we4013 /we4099 /we4930 /Gw /Gy /Zc:inline -Iexternal/windows_sasl/include",
+      "linkflags": "/nologo /SUBSYSTEM:CONSOLE /MACHINE:X64 /NODEFAULTLIB:library /DEBUG /INCREMENTAL:NO /LARGEADDRESSAWARE /OPT:REF /LIBPATH:external/windows_sasl/lib bcrypt.lib Dnsapi.lib Crypt32.lib Version.lib Winmm.lib Iphlpapi.lib Pdh.lib kernel32.lib shell32.lib ws2_32.lib DbgHelp.lib Psapi.lib Secur32.lib",
+      "target_arch": "",
+      "target_os": "windows",
+      "cppdefines": "BOOST_ALL_NO_LIB BOOST_ALL_NO_LIB _UNICODE UNICODE _SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING _SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING _SILENCE_ALL_CXX20_DEPRECATION_WARNINGS _CONSOLE _CRT_SECURE_NO_WARNINGS _ENABLE_EXTENDED_ALIGNED_STORAGE _SCL_SECURE_NO_WARNINGS NDEBUG BOOST_ENABLE_ASSERT_DEBUG_HANDLER BOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF BOOST_LOG_NO_SHORTHAND_NAMES BOOST_LOG_USE_NATIVE_SYSLOG BOOST_LOG_WITHOUT_THREAD_ATTR BOOST_MATH_NO_LONG_DOUBLE_MATH_FUNCTIONS BOOST_SYSTEM_NO_DEPRECATED BOOST_THREAD_USES_DATETIME BOOST_THREAD_VERSION=5 ABSL_FORCE_ALIGNED_ACCESS PCRE2_STATIC SAFEINT_USE_INTRINSICS=0"
+    },
+    "bits": 64,
+    "debug": false,
+    "maxBsonObjectSize": {
+      "$numberLong": "16777216"
+    },
+    "storageEngines": [
+      "devnull",
+      "wiredTiger"
+    ]
+  }
+},
+{
+  "_id": "Harini-1776447343115",
+  "hostname": "Harini",
+  "startTime": {
+    "$date": "2026-04-17T17:35:43.000Z"
+  },
+  "startTimeLocal": "Fri Apr 17 23:05:43.115",
+  "cmdLine": {
+    "config": "C:\\Program Files\\MongoDB\\Server\\8.2\\bin\\mongod.cfg",
+    "net": {
+      "bindIp": "127.0.0.1",
+      "port": 27017
+    },
+    "service": true,
+    "storage": {
+      "dbPath": "C:\\Program Files\\MongoDB\\Server\\8.2\\data"
+    },
+    "systemLog": {
+      "destination": "file",
+      "logAppend": true,
+      "path": "C:\\Program Files\\MongoDB\\Server\\8.2\\log\\mongod.log"
+    }
+  },
+  "pid": {
+    "$numberLong": "5776"
+  },
+  "buildinfo": {
+    "version": "8.2.6",
+    "versionArray": [
+      8,
+      2,
+      6,
+      0
+    ],
+    "gitVersion": "5d25c835745d06f712320b6cdae9d50b7b43663e",
+    "targetMinOS": "Windows 7/Windows Server 2008 R2",
+    "modules": [],
+    "allocator": "tcmalloc-gperf",
+    "javascriptEngine": "mozjs",
+    "sysinfo": "deprecated",
+    "openssl": {
+      "running": "Windows SChannel"
+    },
+    "buildEnvironment": {
+      "distmod": "windows",
+      "distarch": "",
+      "cc": "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.31.31103/bin/HostX64/x64/cl.exe: version unknown",
+      "ccflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /Zc:inline /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include /WX /W3 /Z7 /O2 /Oy- /wd4068 /wd4244 /wd4267 /wd4290 /wd4351 /wd4355 /wd4373 /wd4800 /wd4251 /wd4291 /we4013 /we4099 /we4930 /Gw /Gy /Zc:inline -Iexternal/windows_sasl/include",
+      "cxx": "None: version unknown",
+      "cxxflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /Zc:inline /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include /WX /W3 /Z7 /O2 /Oy- /wd4068 /wd4244 /wd4267 /wd4290 /wd4351 /wd4355 /wd4373 /wd4800 /wd4251 /wd4291 /we4013 /we4099 /we4930 /Gw /Gy /Zc:inline -Iexternal/windows_sasl/include",
+      "linkflags": "/nologo /SUBSYSTEM:CONSOLE /MACHINE:X64 /NODEFAULTLIB:library /DEBUG /INCREMENTAL:NO /LARGEADDRESSAWARE /OPT:REF /LIBPATH:external/windows_sasl/lib bcrypt.lib Dnsapi.lib Crypt32.lib Version.lib Winmm.lib Iphlpapi.lib Pdh.lib kernel32.lib shell32.lib ws2_32.lib DbgHelp.lib Psapi.lib Secur32.lib",
+      "target_arch": "",
+      "target_os": "windows",
+      "cppdefines": "BOOST_ALL_NO_LIB BOOST_ALL_NO_LIB _UNICODE UNICODE _SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING _SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING _SILENCE_ALL_CXX20_DEPRECATION_WARNINGS _CONSOLE _CRT_SECURE_NO_WARNINGS _ENABLE_EXTENDED_ALIGNED_STORAGE _SCL_SECURE_NO_WARNINGS NDEBUG BOOST_ENABLE_ASSERT_DEBUG_HANDLER BOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF BOOST_LOG_NO_SHORTHAND_NAMES BOOST_LOG_USE_NATIVE_SYSLOG BOOST_LOG_WITHOUT_THREAD_ATTR BOOST_MATH_NO_LONG_DOUBLE_MATH_FUNCTIONS BOOST_SYSTEM_NO_DEPRECATED BOOST_THREAD_USES_DATETIME BOOST_THREAD_VERSION=5 ABSL_FORCE_ALIGNED_ACCESS PCRE2_STATIC SAFEINT_USE_INTRINSICS=0"
+    },
+    "bits": 64,
+    "debug": false,
+    "maxBsonObjectSize": {
+      "$numberLong": "16777216"
+    },
+    "storageEngines": [
+      "devnull",
+      "wiredTiger"
+    ]
+  }
+},
+{
+  "_id": "Harini-1776486115096",
+  "hostname": "Harini",
+  "startTime": {
+    "$date": "2026-04-18T04:21:55.000Z"
+  },
+  "startTimeLocal": "Sat Apr 18 09:51:55.096",
+  "cmdLine": {
+    "config": "C:\\Program Files\\MongoDB\\Server\\8.2\\bin\\mongod.cfg",
+    "net": {
+      "bindIp": "127.0.0.1",
+      "port": 27017
+    },
+    "service": true,
+    "storage": {
+      "dbPath": "C:\\Program Files\\MongoDB\\Server\\8.2\\data"
+    },
+    "systemLog": {
+      "destination": "file",
+      "logAppend": true,
+      "path": "C:\\Program Files\\MongoDB\\Server\\8.2\\log\\mongod.log"
+    }
+  },
+  "pid": {
+    "$numberLong": "5924"
+  },
+  "buildinfo": {
+    "version": "8.2.6",
+    "versionArray": [
+      8,
+      2,
+      6,
+      0
+    ],
+    "gitVersion": "5d25c835745d06f712320b6cdae9d50b7b43663e",
+    "targetMinOS": "Windows 7/Windows Server 2008 R2",
+    "modules": [],
+    "allocator": "tcmalloc-gperf",
+    "javascriptEngine": "mozjs",
+    "sysinfo": "deprecated",
+    "openssl": {
+      "running": "Windows SChannel"
+    },
+    "buildEnvironment": {
+      "distmod": "windows",
+      "distarch": "",
+      "cc": "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.31.31103/bin/HostX64/x64/cl.exe: version unknown",
+      "ccflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /Zc:inline /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include /WX /W3 /Z7 /O2 /Oy- /wd4068 /wd4244 /wd4267 /wd4290 /wd4351 /wd4355 /wd4373 /wd4800 /wd4251 /wd4291 /we4013 /we4099 /we4930 /Gw /Gy /Zc:inline -Iexternal/windows_sasl/include",
+      "cxx": "None: version unknown",
+      "cxxflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /Zc:inline /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include /WX /W3 /Z7 /O2 /Oy- /wd4068 /wd4244 /wd4267 /wd4290 /wd4351 /wd4355 /wd4373 /wd4800 /wd4251 /wd4291 /we4013 /we4099 /we4930 /Gw /Gy /Zc:inline -Iexternal/windows_sasl/include",
+      "linkflags": "/nologo /SUBSYSTEM:CONSOLE /MACHINE:X64 /NODEFAULTLIB:library /DEBUG /INCREMENTAL:NO /LARGEADDRESSAWARE /OPT:REF /LIBPATH:external/windows_sasl/lib bcrypt.lib Dnsapi.lib Crypt32.lib Version.lib Winmm.lib Iphlpapi.lib Pdh.lib kernel32.lib shell32.lib ws2_32.lib DbgHelp.lib Psapi.lib Secur32.lib",
+      "target_arch": "",
+      "target_os": "windows",
+      "cppdefines": "BOOST_ALL_NO_LIB BOOST_ALL_NO_LIB _UNICODE UNICODE _SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING _SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING _SILENCE_ALL_CXX20_DEPRECATION_WARNINGS _CONSOLE _CRT_SECURE_NO_WARNINGS _ENABLE_EXTENDED_ALIGNED_STORAGE _SCL_SECURE_NO_WARNINGS NDEBUG BOOST_ENABLE_ASSERT_DEBUG_HANDLER BOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF BOOST_LOG_NO_SHORTHAND_NAMES BOOST_LOG_USE_NATIVE_SYSLOG BOOST_LOG_WITHOUT_THREAD_ATTR BOOST_MATH_NO_LONG_DOUBLE_MATH_FUNCTIONS BOOST_SYSTEM_NO_DEPRECATED BOOST_THREAD_USES_DATETIME BOOST_THREAD_VERSION=5 ABSL_FORCE_ALIGNED_ACCESS PCRE2_STATIC SAFEINT_USE_INTRINSICS=0"
+    },
+    "bits": 64,
+    "debug": false,
+    "maxBsonObjectSize": {
+      "$numberLong": "16777216"
+    },
+    "storageEngines": [
+      "devnull",
+      "wiredTiger"
+    ]
+  }
+}]
